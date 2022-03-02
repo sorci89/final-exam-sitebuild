@@ -91,8 +91,22 @@ header {
   width: 100%;
 }
 .card-text {
+  position: relative;
   padding: 40px;
   border: 1px #1a24fb solid;
+}
+.number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a24fb;
 }
 
 h1 {
