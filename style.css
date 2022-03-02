@@ -46,10 +46,11 @@ select {
 body {
   font-family: "Overpass", sans-serif;
   background-color: #f8f7f3;
+  font-family: "Overpass", sans-serif;
 }
 
-/* font-family: 'Overpass', sans-serif;
-font-family: 'Montserrat', sans-serif; */
+/* 
+*/
 
 header {
   padding: 10px;
@@ -70,7 +71,7 @@ header {
   text-transform: uppercase;
 }
 
-.header-icon .material-icons {
+.header-icon div {
   color: #f8f7f3;
   font-size: 24px;
 }
@@ -86,15 +87,19 @@ header {
 
 .card {
   margin: 100px 20px;
-  padding: 40px;
   max-width: 380px;
   width: 100%;
+}
+.card-text {
+  padding: 40px;
   border: 1px #1a24fb solid;
 }
 
 h1 {
+  margin-bottom: 10px;
   font-size: 36px;
   color: #1a24fb;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
@@ -122,12 +127,12 @@ button:hover {
   color: #f8f7f3;
   background-color: #1a24fb;
 }
-.material-icons .arrow {
+.material-icons {
   color: #1a24fb;
   font-size: 18px;
 }
 
-.arrow:hover {
+.material-icons:hover {
   color: #f8f7f3;
   background-color: #1a24fb;
 }
